@@ -87,6 +87,7 @@ Select
 
 * Make programming fun again
 Live example
+[[https://github.com/camerazn/GolangIntro/blob/master/examples/dumbclient.go][Here's what we wrote during the session]]
 
 * Who is using Go?
 Google
