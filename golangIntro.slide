@@ -1,0 +1,98 @@
+A quick intro to Go
+2014-03-05
+
+Chris Agocs
+Software engineer, Backstop Solutions
+cagocs@backstopsolutions.com
+http://www.agocs.org
+@agox
+
+* What is it?
+New language, has been around since 2009 (kinda)
+Statically typed (kinda)
+Object oriented (kinda)
+Garbage collected (fully)
+
+* What is it good at?
+Quick compile times
+Creating statically linked native binaries
+Concurrency
+
+* Why is it?
+Next step in systems programming
+Take advantage of multicore computers
+Make programming fun again
+
+
+
+
+* Hello World
+Wooooooooooo
+
+.play examples/hello_world.go
+
+
+
+
+* Some basic syntax
+
+.play examples/hello_world_syntax.go /START OMIT/,/END OMIT/
+
+private String getHellos (int numHellos){...}
+
+[[http://blog.golang.org/gos-declaration-syntax][Go's Declaration Syntax]]
+[[http://c-faq.com/decl/spiral.anderson.html][the Clockwise Spiral Rule]]
+
+
+
+* Static Typing
+
+.play examples/static_typing2.go /START OMIT/,/END OMIT/ 
+
+
+* Object Orientation
+
+.play examples/object_orientation_simple.go /START OMIT/,/END OMIT/
+
+* More Object Orientation
+.play examples/object_orientation_complex.go /START OMIT/,/END OMIT/
+[[http://golang.org/pkg/fmt/#Stringer][Stringer interface]]
+
+
+* Compile times
+Quick
+
+* Native binaries
+No runtime
+Quick example
+
+* Concurrency
+Goroutines
+- Really light weight, inexpensive threads
+
+Channels
+- Buffers for communication between goroutines
+
+Select
+- Selects between recieving channels
+
+
+* Noroutines
+
+.play examples/noroutines.go /START OMIT/,/END OMIT/
+
+
+* Goroutines
+.play examples/goroutines.go /START OMIT/,/END OMIT/
+
+* Make programming fun again
+Live example
+
+* Who is using Go?
+Google
+Bit.ly
+CloudFlare
+Iron.io
+SmugMug
+Docker
+etc., etc.
